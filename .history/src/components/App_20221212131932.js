@@ -19,10 +19,12 @@ function Home() {
 function About() {
   return (
     <div id="about">
-      <h2>About</h2>
+      <h1>About</h1>
     </div>
   );
 }
+
+{/* write an <About> component here */}
 
 
 function App() {
@@ -30,7 +32,7 @@ function App() {
     <div>
       <NavBar />
       <Home />
-      <About />
+      {/* add your <About> component here */}
     </div>
   );
 }
